@@ -3,7 +3,7 @@ import './Home.css'
 import Navbar from '../../components/Navbar/Navbar'
 import hero_banner from '../../assets/hero_banner.jpg'
 import hero_title from '../../assets/hero_title.png'
-import Play_icon from '../../assets/Play_icon.png'
+import play_icon from '../../assets/play_icon.png'
 import info_icon from '../../assets/info_icon.png'
 import TitleCards from '../../components/Title-Cards/TitleCards'
 import Footer from '../../components/Footer/Footer'
@@ -20,7 +20,7 @@ const Home = () => {
              Delectus quidem recusandae nobis repellendus consequatur 
              voluptatem ducimus labore, quis officia tempore.</p>
              <div className="hero-btn">
-              <button className='btn'><img src={Play_icon} alt="" />Play</button>
+              <button className='btn'><img src={play_icon} alt="" />Play</button>
               <button className='btn dark-btn'><img src={info_icon} alt="" />More info</button>
              </div>
              <TitleCards/>
